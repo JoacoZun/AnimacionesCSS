@@ -1,0 +1,345 @@
+
+:root {
+    --bg: #00609f;
+    --border: #c5f1ec;
+    --text: white; 
+    --font: "Open Sans", sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.container {
+    
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+        "navbar"
+        "main"
+        "footer";
+        background-image: url(../img/background.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+}
+
+
+.navbar {
+    grid-area: navbar;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.navbar-logo {
+    color: var(--text);
+    font-weight: 500;
+    padding: 1rem;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--bg);
+}
+
+#expand-toggle {
+    display: none;
+}
+
+.menu-icon {
+    color: var(--text);
+    font-size: 1.8rem;
+    padding: 1rem;
+    cursor: pointer;
+    
+}
+
+.navbar-nav {
+    position: relative;
+    width: 100%;
+    height: 0;
+    opacity: 0;
+    transition: all 0.2s ease-out;
+}
+
+.nav-link {
+    display: block;
+    padding: 0.7rem;
+    color: red;
+    transition: all 0.3s ease-out;
+   
+}
+
+.nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+    color: var(--bg);
+}
+
+#expand-toggle:checked ~ .navbar-nav {
+    padding: 1rem 0;
+    height: auto;
+    opacity: 1;
+}
+
+
+.tittle {
+    color: var(--text);
+}
+
+.main {
+    grid-area: main;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 1rem;
+    background-color: rgba(255, 255, 255, 0.4);
+    
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    overflow-y: auto;
+    height: calc(100vh - 15rem);
+    padding: 4rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid var(--border);
+    border-radius: 1rem;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.4);
+    filter: grayscale(75%);
+    transition: all 0.3s ease-out;
+    
+}
+h5 {
+    color: var(--bg);
+}
+.card:hover {
+    border: 1px solid var(--border);
+    box-shadow: 0 0 0 2px var(--bg);
+    background-color: rgba(255, 255, 255, 0.4);
+    filter: grayscale(0%);
+}
+
+.card-img {
+    width: 100%;
+    padding: 1.5rem;
+    object-fit: cover;
+}
+
+.card-img:hover {
+filter: saturate(150%);
+}
+
+.card-divider {
+    width: 100%;
+    border-bottom: 2px solid var(--border);
+    
+}
+
+.card-body {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5rem;
+   
+}
+
+.card-btn {
+    text-align: center;
+    padding: 0.7rem 2rem;
+    margin-top: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: var(--bg);
+    color: var(--text);
+}
+
+.card-btn:hover {
+    background-color: var(--text);
+    color: var(--bg)
+    }
+    
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin: 0.5rem; 
+}
+
+.page-link {
+    background-color: var(--bg);
+    border: 1px solid #edf2f4;
+    color: #fff;
+    padding: 0.7rem 1rem;
+}
+
+.page-link:first-child {
+    border-radius: .7rem 0 0 .7rem;
+}
+
+.page-link:last-child {
+    border-radius: 0 .7rem .7rem 0;
+}
+
+
+.page-link:hover {
+    background-color: var(--text);
+    color: var(--bg);
+}
+
+
+
+footer {
+    grid-area: footer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgba(255, 255, 255, 0.4);
+    color: var(--text);
+    border-right: solid var(--bg);
+   
+}
+footer .copyright {
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 1rem;
+    
+}
+.footer-icon i {
+    color: var(--bg);
+}
+
+.footer-icon i:hover {
+    animation: animate-footer-icon 0.8s alternate;
+    color: var(--border)
+}
+
+
+@media screen and (min-width: 576px) {
+    .container {
+        height: 100vh;
+        grid-template-columns: auto 1fr;
+        grid-template-rows: auto 1fr auto;
+        grid-template-areas:
+            "navbar navbar"
+            "filter main"
+            "footer footer";
+    }
+
+    .menu-icon {
+        display: none;
+    }
+
+    .navbar-nav {
+        height: auto;
+        width: auto;
+        display: flex;
+        background-color: rgba(255, 255, 255, 0.4);
+        margin-right: 0.5rem;
+        opacity: 1;
+    }
+
+    .nav-link {
+        font-size: 0.8rem;
+        padding: 1rem;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: var(--bg);
+        color: var(--text);
+    }
+
+    .filter {
+        justify-content: left;
+    }
+
+    .gallery{
+        grid-template-columns: 1fr 1fr;
+        height: calc(100vh - 18rem);
+    }
+}
+
+
+
+@media screen and (min-width: 992px) {
+    .container{
+        height: 100vh;
+        grid-template-columns: 2fr 7fr;
+        grid-template-rows: auto 1fr auto;
+        grid-template-areas:
+            "navbar filter"
+            "navbar main"
+            "footer main";
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+        text-align: center;
+        padding: 1rem;
+        width: 100%;
+        opacity: 1;
+    }
+
+    .nav-link {
+        font-size: 1rem;
+        padding: 1rem;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: var(--bg);
+        color: var(--text);
+    }
+
+    .navbar {
+        flex-direction: column;
+        justify-content: left;
+    }
+
+    .navbar-logo {
+        padding: 1.95rem;
+    }
+
+    .gallery {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        height: calc(100vh - 7rem);
+        padding: 1rem;
+    }
+}
+
+
+
+
+@keyframes animate-footer-icon {
+    0%,
+    100% {
+        transform: translateX(0%);
+        transform-origin: 50% 50%;
+    }
+    15% {
+        transform: translateX(-9px) rotate(-6deg);
+    }
+    30% {
+        transform: translateX(7px) rotate(6deg);
+    }
+    45% {
+        transform: translateX(-7px) rotate(-3.6deg);
+    }
+    60% {
+        transform: translateX(5px) rotate(2.4deg);
+    }
+    75% {
+        transform: translateX(-5px) rotate(-1.2deg);
+    }
+     }
