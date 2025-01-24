@@ -13,8 +13,8 @@
         <mxCell id="ekk_SgifSOK45CWoUBHR-3" value="Logo" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-60" y="895" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ekk_SgifSOK45CWoUBHR-4" value="InicioSesión/Registrarse/Buscador/Carrito de compras" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="460" y="895" width="250" height="30" as="geometry" />
+        <mxCell id="ekk_SgifSOK45CWoUBHR-4" value="InicioSesión(PERFIL)/Registrarse/Buscador/Carrito de compras (hechos con iconos)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="895" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ekk_SgifSOK45CWoUBHR-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry y="940" width="720" height="60" as="geometry" />
@@ -99,10 +99,10 @@
         <mxCell id="ekk_SgifSOK45CWoUBHR-33" value="Pagina de la imagen" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="242.5" y="1870" width="250" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ekk_SgifSOK45CWoUBHR-35" value="Nombre de la obra&lt;br&gt;Autor&lt;div&gt;Descripción&lt;/div&gt;&lt;div&gt;&lt;br&gt;Precio&lt;/div&gt;&lt;div&gt;Añadir al carrito&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ekk_SgifSOK45CWoUBHR-35" value="Nombre de la obra&lt;br&gt;Autor&lt;div&gt;Descripción&lt;/div&gt;&lt;div&gt;&lt;br&gt;Precio&lt;/div&gt;&lt;div&gt;Añadir al carrito&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=25;" vertex="1" parent="1">
           <mxGeometry x="410" y="2020" width="250" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="ekk_SgifSOK45CWoUBHR-36" value="imagen" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ekk_SgifSOK45CWoUBHR-36" value="imagen" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="80" y="2100" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ekk_SgifSOK45CWoUBHR-37" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -126,40 +126,22 @@
             <mxPoint x="189.41" y="2810" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ekk_SgifSOK45CWoUBHR-49" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="105" y="2890" as="sourcePoint" />
-            <mxPoint x="275" y="2890" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="ekk_SgifSOK45CWoUBHR-51" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="280" y="2953" as="sourcePoint" />
             <mxPoint x="280" y="2893" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ekk_SgifSOK45CWoUBHR-52" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="105" y="2890" as="sourcePoint" />
-            <mxPoint x="280" y="2890" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="ekk_SgifSOK45CWoUBHR-54" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="100" y="2953" as="sourcePoint" />
-            <mxPoint x="100" y="2893" as="targetPoint" />
+            <mxPoint x="99.41" y="2950" as="sourcePoint" />
+            <mxPoint x="99.41" y="2890" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ekk_SgifSOK45CWoUBHR-55" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="102.5" y="2890" as="sourcePoint" />
-            <mxPoint x="277.5" y="2890" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ekk_SgifSOK45CWoUBHR-56" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="100" y="2890" as="sourcePoint" />
-            <mxPoint x="277.5" y="2890" as="targetPoint" />
+            <mxPoint x="97.5" y="2890" as="sourcePoint" />
+            <mxPoint x="282.5" y="2890" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ekk_SgifSOK45CWoUBHR-58" value="Login/Registrarse" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -172,10 +154,40 @@
           <mxGeometry x="55" y="2708" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ekk_SgifSOK45CWoUBHR-61" value="Sección privada" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="495" y="2708" width="110" height="30" as="geometry" />
+          <mxGeometry x="450" y="2710" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ekk_SgifSOK45CWoUBHR-62" value="Pagina principal" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ekk_SgifSOK45CWoUBHR-62" value="Perfil" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="450" y="2750" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ekk_SgifSOK45CWoUBHR-63" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="2890" as="sourcePoint" />
+            <mxPoint x="560" y="2810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ekk_SgifSOK45CWoUBHR-64" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="475" y="2890" as="sourcePoint" />
+            <mxPoint x="652.5" y="2890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ekk_SgifSOK45CWoUBHR-65" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="474.40999999999997" y="2950" as="sourcePoint" />
+            <mxPoint x="474.40999999999997" y="2890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ekk_SgifSOK45CWoUBHR-66" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="652.5" y="2950" as="sourcePoint" />
+            <mxPoint x="652.5" y="2890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ekk_SgifSOK45CWoUBHR-67" value="Datos de usuario" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="2950" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ekk_SgifSOK45CWoUBHR-68" value="Compras realizadas" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="2950" width="110" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
