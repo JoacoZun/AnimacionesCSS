@@ -105,6 +105,18 @@
         <mxCell id="ekk_SgifSOK45CWoUBHR-36" value="imagen" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="80" y="2100" width="250" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="ekk_SgifSOK45CWoUBHR-37" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="2450" width="720" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="ekk_SgifSOK45CWoUBHR-38" value="Footer" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="242.5" y="2410" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ekk_SgifSOK45CWoUBHR-39" value="Logo" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="2490" width="327.5" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ekk_SgifSOK45CWoUBHR-40" value="Contacto&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Desarrolladores&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="2525" width="250" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
