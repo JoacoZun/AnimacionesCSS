@@ -31,6 +31,39 @@
         <mxCell id="ekk_SgifSOK45CWoUBHR-9" value="HERO SECTION" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;" vertex="1" parent="1">
           <mxGeometry x="190" y="1040" width="292.5" height="190" as="geometry" />
         </mxCell>
+        <mxCell id="ekk_SgifSOK45CWoUBHR-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="1370" width="720" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="ekk_SgifSOK45CWoUBHR-11" value="Publicaciones" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="1400" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ekk_SgifSOK45CWoUBHR-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1460" width="150" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="ekk_SgifSOK45CWoUBHR-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1460" width="150" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="ekk_SgifSOK45CWoUBHR-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1460" width="150" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="ekk_SgifSOK45CWoUBHR-15" value="Nombre de la obra&lt;br&gt;Autor&lt;br&gt;Precio" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="1670" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ekk_SgifSOK45CWoUBHR-16" value="Nombre de la obra&lt;br&gt;Autor&lt;br&gt;Precio" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1670" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ekk_SgifSOK45CWoUBHR-17" value="Nombre de la obra&lt;br&gt;Autor&lt;br&gt;Precio" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1670" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ekk_SgifSOK45CWoUBHR-19" value="imagen" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="1530" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ekk_SgifSOK45CWoUBHR-20" value="imagen" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1530" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ekk_SgifSOK45CWoUBHR-21" value="imagen" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1530" width="250" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
