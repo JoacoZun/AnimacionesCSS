@@ -1,9 +1,36 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.6">
   <diagram name="Página-1" id="IMTYINmOgVy67t2J1NmD">
-    <mxGraphModel>
+    <mxGraphModel dx="1707" dy="494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ekk_SgifSOK45CWoUBHR-1" value="Página principal (Proyecto galería de arte)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="850" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ekk_SgifSOK45CWoUBHR-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="880" width="720" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ekk_SgifSOK45CWoUBHR-3" value="Logo" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="895" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ekk_SgifSOK45CWoUBHR-4" value="InicioSesión/Registrarse/Buscador/Carrito de compras" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="895" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ekk_SgifSOK45CWoUBHR-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="940" width="720" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ekk_SgifSOK45CWoUBHR-6" value="(apartado navbar)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="895" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ekk_SgifSOK45CWoUBHR-7" value="Header" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="220" y="955" width="265" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ekk_SgifSOK45CWoUBHR-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="1000" width="720" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="ekk_SgifSOK45CWoUBHR-9" value="HERO SECTION" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1040" width="292.5" height="190" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
