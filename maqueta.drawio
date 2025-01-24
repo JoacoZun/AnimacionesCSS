@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ekk_SgifSOK45CWoUBHR-1" value="Página principal (Proyecto galería de arte)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="220" y="850" width="250" height="30" as="geometry" />
+          <mxGeometry x="260" y="850" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ekk_SgifSOK45CWoUBHR-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry y="880" width="720" height="60" as="geometry" />
@@ -23,16 +23,16 @@
           <mxGeometry x="210" y="895" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ekk_SgifSOK45CWoUBHR-7" value="Header" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="220" y="955" width="265" height="30" as="geometry" />
+          <mxGeometry x="227.5" y="940" width="265" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ekk_SgifSOK45CWoUBHR-8" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry y="1000" width="720" height="350" as="geometry" />
         </mxCell>
         <mxCell id="ekk_SgifSOK45CWoUBHR-9" value="HERO SECTION" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=30;" vertex="1" parent="1">
-          <mxGeometry x="190" y="1040" width="292.5" height="190" as="geometry" />
+          <mxGeometry x="220" y="1040" width="292.5" height="190" as="geometry" />
         </mxCell>
         <mxCell id="ekk_SgifSOK45CWoUBHR-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry y="1370" width="720" height="470" as="geometry" />
+          <mxGeometry y="1380" width="720" height="470" as="geometry" />
         </mxCell>
         <mxCell id="ekk_SgifSOK45CWoUBHR-11" value="Publicaciones" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="-10" y="1400" width="250" height="30" as="geometry" />
@@ -63,6 +63,32 @@
         </mxCell>
         <mxCell id="ekk_SgifSOK45CWoUBHR-21" value="imagen" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="470" y="1530" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ekk_SgifSOK45CWoUBHR-22" value="(Buscador/Filtros)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="232.5" y="970" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ekk_SgifSOK45CWoUBHR-23" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="1290" width="720" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ekk_SgifSOK45CWoUBHR-24" value="FOOTER" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="232.5" y="1305" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ekk_SgifSOK45CWoUBHR-25" value="HERO" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="227.5" y="1350" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ekk_SgifSOK45CWoUBHR-29" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="1750" as="sourcePoint" />
+            <mxPoint x="110" y="1710" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="100" y="1770" />
+              <mxPoint x="100" y="1750" />
+              <mxPoint x="60" y="1710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ekk_SgifSOK45CWoUBHR-30" value="(repetir patrón con grid)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1750" width="250" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
